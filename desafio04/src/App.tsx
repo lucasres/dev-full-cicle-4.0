@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import UserList from "./pages/UserList";
 
 function App() {
   return (
     <div>
-      Hello
+      <UserList />
     </div>
   );
 }
